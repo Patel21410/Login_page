@@ -8,7 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
+        body{
+          
+          background-image: url("https://static.vecteezy.com/system/resources/previews/036/461/483/large_2x/computer-technology-background-laptop-login-screen-with-data-and-software-download-status-elements-that-shows-work-isometric-image-blue-background-illustration-vector.jpg");
+          background-repeat: no-repeat;
+          /* background-size: cover; */
+          background-size: cover;
+          background-position: center;
+          height: 100vh; /* Make the body take up the full viewport height */
+          margin: 0;
+        }
         .formcent{
             width: 30%;
             position: absolute;
@@ -17,20 +26,19 @@
             transform: translate(-50%, -50%);
 
         }
-        /* .formcent:hover{
+        .formcent:hover{
             width: 30%;
             position: absolute;
             top: 40%;
             left: 35%;
             transform: scale(1.2);
+            color: white;
 
-        } */
-         .eye{
-            /* display: inline; */
-            /* width: 15px;
-            height: 15px;
-            background-color: red; */
-         }
+        }
+         .eye {
+            cursor: pointer;
+        }
+         
     </style>
     <script>
         const visiblepass=()=>{
@@ -45,10 +53,10 @@
 </head>
 <body>
     <div class="formcent">
-        <form method="get" action="#ggn">
+        <form method="post" action="#Aman">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="text" class="form-control" id="exampleInputEmail1">
+              <input type="email" class="form-control" id="exampleInputEmail1">
               <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <div class="mb-3">
